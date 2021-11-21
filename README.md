@@ -52,8 +52,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   An object is the entity that is created to allocate memory. 
   A class when defined does not have memory chunk itself which will be allocated as soon as objects are created.</p>
 
-<p>Syntax class_name object_name; Example #include<iostream> using namespace std; class calculator {  int number1;  int number2;  char symbol;  public :  void add() {  cout<<&quot;The sum is &quot;<<number1 + number2 ;  }  void subtract() {  cout<<&quot;The subtraction is &quot;<<number1 - number2 ;  }  void multiply() {  cout<<&quot;The multiplication is &quot;<<number1 * number2 ;  }  void divide() {  cout<<&quot;The division is &quot;<<number1 / number2 ;  }  calculator (int a , int b , char sym) {  number1 = a;  number2 = b;  symbol = sym;  switch(symbol){  case '+' : add();  break;  case '-' : add();  break;  case '*' : add();  break;  case '/' : add();  break;  default : cout<<&quot;Wrong operator&quot;;  }  } }; int main() {  calculator c1(12 , 34 , '+'); } Output The sum is 46 Encapsulation In object oriented programming, encapsulation is the concept of wrapping together of data and information in a single unit. A formale defination of encapsulation would be: encapsulation is binding togather the data and related function that can manipulate the data.</p>
-
+ <p>Syntax class_name object_name; </p>
+ 
 <p>Let&rsquo;s understand the topic with an easy real life example,</p>
 
 <p>In our colleges, we have departments for each course like computer science, information tech. , electronics, etc. each of these departments have their own students and subjects that are kept track of and being taught. let's think of each department as a class that encapsulates the data about students of that department and the subjects that are to be taught. Also a department has some fixed rules and guidelines that are to be followed by the students that course like timings, methods used while learning, etc. this is encapsulation in real life, there are data and there are ways to manipulate data.</p>
