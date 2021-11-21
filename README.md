@@ -19,7 +19,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p>Some basic concepts of object oriented programming are &#8722;</p>
 
-<p>CLASS OBJECTS ENCAPSULATION POLYMORPHISM INHERITANCE ABSTRACTION Class &#8722; A class is a data-type that has its own members i.e. data members and member functions. It is the blueprint for an object in object oriented programming language. It is the basic building block of object oriented programming in c++. The members of a class are accessed in programming language by creating an instance of the class.</p>
+<p>CLASS 
+ OBJECTS 
+ ENCAPSULATION
+ POLYMORPHISM 
+ INHERITANCE 
+ ABSTRACTION
+ </p>
+ 
+ <p>Class &#8722; A class is a data-type that has its own members i.e. data members and member functions.
+ It is the blueprint for an object in object oriented programming language. 
+ It is the basic building block of object oriented programming in c++. 
+ The members of a class are accessed in programming language by creating an instance of the class.</p>
 
 <p>Some important properties of class are &#8722;</p>
 
@@ -35,7 +46,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p>A class can have multiple objects which have properties and behaviour that in common for all of them.</p>
 
-<p>Syntax class class_name {  data_type data_name;  return_type method_name(parameters); } Object &#8722; An object is an instance of a class. It is an entity with characteristics and behaviour that are used in the object oriented programming. An object is the entity that is created to allocate memory. A class when defined does not have memory chunk itself which will be allocated as soon as objects are created.</p>
+ <p>Syntax class class_name {  data_type data_name;  return_type method_name(parameters); } </p>
+ 
+ <p>Object &#8722; An object is an instance of a class. It is an entity with characteristics and behaviour that are used in the object oriented programming. 
+  An object is the entity that is created to allocate memory. 
+  A class when defined does not have memory chunk itself which will be allocated as soon as objects are created.</p>
 
 <p>Syntax class_name object_name; Example #include<iostream> using namespace std; class calculator {  int number1;  int number2;  char symbol;  public :  void add() {  cout<<&quot;The sum is &quot;<<number1 + number2 ;  }  void subtract() {  cout<<&quot;The subtraction is &quot;<<number1 - number2 ;  }  void multiply() {  cout<<&quot;The multiplication is &quot;<<number1 * number2 ;  }  void divide() {  cout<<&quot;The division is &quot;<<number1 / number2 ;  }  calculator (int a , int b , char sym) {  number1 = a;  number2 = b;  symbol = sym;  switch(symbol){  case '+' : add();  break;  case '-' : add();  break;  case '*' : add();  break;  case '/' : add();  break;  default : cout<<&quot;Wrong operator&quot;;  }  } }; int main() {  calculator c1(12 , 34 , '+'); } Output The sum is 46 Encapsulation In object oriented programming, encapsulation is the concept of wrapping together of data and information in a single unit. A formale defination of encapsulation would be: encapsulation is binding togather the data and related function that can manipulate the data.</p>
 
@@ -45,9 +60,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p>Due to the concept of encapsulation in object oriented programming another very important concept is possible, it is data abstraction or Data Hiding. it is possible as encapsulating hides the data at show only the information that is required to be displayed.</p>
 
-<p>Polymorphism The name defines polymorphism is multiple forms. which means polymorphism is the ability of object oriented programming to do some work using multiple forms. The behaviour of the method is dependent on the type or the situation in which the method is called.</p>
+<p>Polymorphism The name defines polymorphism is multiple forms. which means polymorphism is the ability of object oriented programming to do some work using multiple forms. 
+ The behaviour of the method is dependent on the type or the situation in which the method is called.</p>
 
-<p>Let&rsquo;s take a real life example, A person can have more than one behaviour depending upon the situation. like a woman a mother, manager and a daughterAnd this define her behaviour. This is from where the concept of polymorphism came from.</p>
+<p>Let&rsquo;s take a real life example, A person can have more than one behaviour depending upon the situation. 
+ like a woman a mother, manager and a daughterAnd this define her behaviour. This is from where the concept of polymorphism came from.</p>
 
 <p>In c++ programming language, polymorphism is achieved using two ways. They are operator overloading and function overloading.</p>
 
@@ -59,7 +76,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p>C plus plus programming language supports the following types of inheritance</p>
 
-<p>single inheritance multiple inheritance multi level inheritance Hierarchical inheritance hybrid inheritance Abstraction Data abstraction or Data Hiding is the concept of hiding data and showing only relevant data to the final user. It is also an important part object oriented programing.</p>
+<p>single inheritance multiple inheritance multi level inheritance Hierarchical inheritance hybrid inheritance Abstraction 
+ Data abstraction or Data Hiding is the concept of hiding data and showing only relevant data to the final user.
+ It is also an important part object oriented programing.</p>
 
 <p>let's take real life example to understand concept better, when we ride a bike we only know that pressing the brake will stop the bike and rotating the throttle will accelerate but you don't know how it works and it is also not think we should know that's why this is done from the same as a concept data abstraction.</p>
 
